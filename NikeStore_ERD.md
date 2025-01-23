@@ -1,5 +1,10 @@
 
 # Nike Store Scenario
+## Entity Descriptions
+* **PRODUCT** Details of Nike shoes sold in the store (ID, name, category, price, etc..).
+* **CUSTOMER** Information about customers (ID, name, email, phone, etc..).
+* **SALE** Transactions linking products and customers, recording sale date, quantity, and total price.
+* **INVENTORY** Tracks stock levels of each product by linking to product_id.
 ## Relationships
 ### 1. Customer and Sales
 > * **Purpose:** Links customers to their purchases.
