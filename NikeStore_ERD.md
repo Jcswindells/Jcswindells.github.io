@@ -1,4 +1,15 @@
-# Nike Store Senario
+
+# Nike Store Scenario
+## Relationships
+### 1. Customer and Sales
+> * **Purpose:** Links customers to their purchases.
+> * **Why It Matters:** Helps the store build customer loyalty and understand customer buying habits.
+### 2. Products and Sales
+> * **Purpose:** Tracks which products are sold in each sale.
+> * **Why It Matters:** Helps the store know what products sell well and generate revenue.
+### 3. Products and Inventory
+> * **Purpose:** Keeps track of stock levels for each product.
+> * **Why It Matters:** Ensures the store doesn’t run out of products and avoids overstocking.
 ```mermaid
 erDiagram
     PRODUCT {
